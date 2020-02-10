@@ -1,0 +1,133 @@
+/*
+Noms des couleurs en HTML/CSS : http://stylescss.free.fr/couleurs.php
+Service de validation CSS du W3C : https://jigsaw.w3.org/css-validator/
+*/
+
+/* ====================  Mise en forme des balises standards ==================== */
+
+/* ===== Mise en forme de la page ===== */
+body
+{
+	background-color : Snow;					/* couleur du fond de page */
+	font-family: Arial, sans-serif;				/* police de caractère pour toute la page */
+}
+
+
+/* ===== Mise en forme de l'entête de page ===== */
+header
+{
+	background : url("images/74000000000248984 1920x1080.jpg");			/* image de fond */
+	opacity : 0.8;								/* atténuation de l'image de fond */
+	padding : 5px;								/* marge intérieure de l'entête de page pour étendre son affichage */
+	text-align : center;						/* mise en forme du texte : centrage */
+	color : White;								/* mise en forme du texte : couleur */
+	text-shadow : 3px 3px 3px black;			/* mise en forme du texte : ombrage pour améliorer la lisibilité sur l'imagee de fond */
+}
+/* Mise en forme des titres de niveau 1 (titre principal dans l'entête : "Océane Berthy") */
+header h1
+{
+	font-variant : small-caps;					/* mise en forme du texte : petites majuscules */
+}
+
+
+/* ===== Mise en forme de la barre de  menu ===== */
+nav
+{
+	border-top : 1px solid DimGray;				/* encadrement de la barre de menu : ligne supérieure */
+	border-bottom : 1px solid DimGray;			/* encadrement de la barre de menu : ligne inférieure */
+	background-color : DarkSalmon;				/* couleur de fond de la barre de menu */
+	margin-bottom : 50px;						/* espacement entre de la barre de menu et le contenu de la page */
+}
+/* Mise en forme des éléments/"onglets" du menu */
+nav a
+{
+	padding-left : 20px;						/* extension de la zone cliquable autour des éléments du menu : à gauche */
+	padding-right : 20px;						/* extension de la zone cliquable autour des éléments du menu : à droite */
+	padding-top : 10px;							/* extension de la zone cliquable autour des éléments du menu : au dessus */
+	padding-bottom : 10px;						/* extension de la zone cliquable autour des éléments du menu : en dessous */
+	margin-left : 40px;							/* espacement avec le bord gauche de la page et entre chacun des éléments du menu */
+	text-decoration : none;						/* mise en forme du texte : suppression de la mise en forme "lien hypertext" */
+	font-variant : small-caps;					/* mise en forme du texte : petites majuscules */
+	font-weight : bold;							/* mise en forme du texte : mise en gras */
+	color : DarkSlateGray;						/* mise en forme du texte : couleur */
+}
+
+
+/* ===== Mise en forme des titres de niveau 3 (contenu spécifique de la page "Formations" ===== */
+h3
+{
+	border-bottom : 1px solid black;			/* encadrement des titres de niveau 3 : ligne inférieure */
+}
+
+
+/* ===== Mise en forme du pied de page ===== */
+footer
+{
+	margin-top : 50px;							/* espacement entre le contenu de la page et le pied de page */
+	border-top : 1px solid DimGray;				/* encadrement du pied de page : ligne supérieure */
+	border-bottom : 1px solid DimGray;			/* encadrement du pied de page : ligne inférieure */
+	background-color : Wheat;					/* couleur de fond du pied de page */
+	text-align : center;						/* mise en forme du texte : centrage */
+	color : DimGray;							/* mise en forme du texte : couleur */
+}
+
+
+/* ==================== Mise en forme des balises "class" ==================== */
+
+
+/* ===== Mise en forme des éléments de lignes ("colonnes") ===== */
+/* Mise en forme commune des éléments de lignes */
+.blocGauche,
+.blocDroit,
+.blocIcone
+{
+	display: inline-block;						/* affichage des éléments de lignes les uns à côté des autres */
+	vertical-align: top;						/* mise en forme du texte : alignement vertical sur le haut de la ligne */
+}
+/* Mise en forme spécifique des éléments de lignes de gauche */
+.blocGauche
+{
+	width : 210px;								/* largeur de l'élément de ligne de gauche */
+	font-weight : bold;							/* mise en forme du texte : mise en gras */
+	text-align : right;							/* mise en forme du texte : alignement horizontal à droite */
+	margin-right : 10px;						/* espacement avec l'élément de ligne situé à droite */
+}
+/* Mise en forme spécifique des éléments de lignes de droite */
+.blocDroit
+{
+	margin-left : 10px;							/* espacement avec l'élément de ligne situé à gauche */
+}
+/* Mise en forme spécifique des éléments de lignes pour les icônes ou les logos */
+.blocIcone
+{
+	width : 60px;								/* largeur de l'élément de ligne */
+	text-align : center;						/* mise en forme du texte : centrage */
+}
+/* Mise en forme des icônes de drapeaux */
+.iconeDrapeau
+{
+	padding-top : 8px;							/* alignement vertical par rapport au haut de la ligne */
+	height : 32px;								/* hauteur des drapeaux */
+}
+/* Mise en forme des logos (établissements, entreprises, associations, professions...) */
+.logoEntité
+{
+	padding-top : 5px;							/* alignement vertical par rapport au haut de la ligne */
+	height : 40px;								/* hauteur des logos */
+}
+/* Mise en forme des icônes de moyens de contact (téléphone, mail, courrier) */
+.iconeContact
+{
+	padding-top : 10px;							/* alignement vertical par rapport au haut de la ligne */
+	height : 40px;								/* hauteur des icônes de moyens de contact */
+}
+/* Mise en forme de la photo en 1ère page */
+.photo
+{
+	height : 180px;								/* taille de la photo */
+	margin-top : 18px;							/* décalage de la photo vers le bas */
+	margin-right : 32px;						/* décalage de la photo vers la gauche */
+}
+
+
+/* ==================== Fin de la feuille de style ==================== */
